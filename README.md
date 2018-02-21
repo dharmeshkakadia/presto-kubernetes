@@ -33,10 +33,11 @@ Run [Presto](https://prestodb.io/) cluster on [Kubernetes](https://kubernetes.io
 
     If you are using minikube, you can find out the address as follows
 
-    ``
+    ```
     minikube service presto --url
+    
     http://192.168.64.4:30126
-    ``
+    ```
 
     Here is how you can use [presto-cli](https://prestodb.io/docs/current/installation/cli.html) to connect and start running queries. The presto UI is also available at the above URI. 
 
