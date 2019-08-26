@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+ HTTP_SERVER_PORT: "8080"
+ PRESTO_JVM_HEAP_SIZE: "10"
+ PRESTO_MAX_MEMORY_PER_NODE: "1"
+kind: ConfigMap
+metadata:
+  name: prestocfg
